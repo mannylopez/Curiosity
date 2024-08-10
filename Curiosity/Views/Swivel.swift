@@ -1,8 +1,11 @@
-// Created by manny_lopez on 8/8/24.
+// Created by manny_lopez on 8/9/24.
 
 import SwiftUI
 
-struct ContentView: View {
+struct Swivel: View, Identifiable {
+  let id = UUID()
+  let name = "Initial"
+
   var body: some View {
     VStack {
       Image(systemName: "globe")
@@ -15,5 +18,5 @@ struct ContentView: View {
 }
 
 #Preview {
-  ContentView()
+  Swivel()
 }

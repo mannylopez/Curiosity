@@ -6,7 +6,7 @@ import SwiftUI
 struct CuriosityApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      DemoList()
     }
   }
 }
