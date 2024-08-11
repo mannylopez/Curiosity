@@ -22,7 +22,7 @@ struct SwivelScreen: View, Demo {
         ForEach(0..<columns, id: \.self) { _ in
           GridRow {
             ForEach(SwivelScreen.rowRange, id: \.self) { _ in
-              Swivel(currentQuadrant: randomQuadrant())
+              SwivelCircle(currentQuadrant: randomQuadrant())
                 .frame(
                   width: proxy.size.width / rowsFloat,
                   height: proxy.size.width / rowsFloat)

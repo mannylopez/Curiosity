@@ -15,7 +15,7 @@
 		584CA9B12C65D8B700C09741 /* CuriosityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584CA9B02C65D8B700C09741 /* CuriosityUITests.swift */; };
 		584CA9B32C65D8B700C09741 /* CuriosityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584CA9B22C65D8B700C09741 /* CuriosityUITestsLaunchTests.swift */; };
 		58A077372C66EB8600D48D3B /* DemosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077362C66EB8600D48D3B /* DemosModel.swift */; };
-		58A077392C66EC3C00D48D3B /* Swivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077382C66EC3C00D48D3B /* Swivel.swift */; };
+		58A077392C66EC3C00D48D3B /* SwivelCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077382C66EC3C00D48D3B /* SwivelCircle.swift */; };
 		58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FC2C683E2600A82B17 /* PieSegment.swift */; };
 		58E405FF2C683F7300A82B17 /* SwivelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FE2C683F7300A82B17 /* SwivelScreen.swift */; };
 		58E406022C684D8700A82B17 /* DemoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E406012C684D8700A82B17 /* DemoProtocol.swift */; };
@@ -50,7 +50,7 @@
 		584CA9B02C65D8B700C09741 /* CuriosityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityUITests.swift; sourceTree = "<group>"; };
 		584CA9B22C65D8B700C09741 /* CuriosityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		58A077362C66EB8600D48D3B /* DemosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemosModel.swift; sourceTree = "<group>"; };
-		58A077382C66EC3C00D48D3B /* Swivel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swivel.swift; sourceTree = "<group>"; };
+		58A077382C66EC3C00D48D3B /* SwivelCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwivelCircle.swift; sourceTree = "<group>"; };
 		58E405FC2C683E2600A82B17 /* PieSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegment.swift; sourceTree = "<group>"; };
 		58E405FE2C683F7300A82B17 /* SwivelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwivelScreen.swift; sourceTree = "<group>"; };
 		58E406012C684D8700A82B17 /* DemoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoProtocol.swift; path = Curiosity/Admin/DemoProtocol.swift; sourceTree = SOURCE_ROOT; };
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				584CA9972C65D8B600C09741 /* DemoList.swift */,
-				58A077382C66EC3C00D48D3B /* Swivel.swift */,
+				58A077382C66EC3C00D48D3B /* SwivelCircle.swift */,
 				58E405FE2C683F7300A82B17 /* SwivelScreen.swift */,
 			);
 			path = Views;
@@ -308,7 +308,7 @@
 				58E406022C684D8700A82B17 /* DemoProtocol.swift in Sources */,
 				58E405FF2C683F7300A82B17 /* SwivelScreen.swift in Sources */,
 				58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */,
-				58A077392C66EC3C00D48D3B /* Swivel.swift in Sources */,
+				58A077392C66EC3C00D48D3B /* SwivelCircle.swift in Sources */,
 				584CA9962C65D8B600C09741 /* CuriosityApp.swift in Sources */,
 				58A077372C66EB8600D48D3B /* DemosModel.swift in Sources */,
 			);

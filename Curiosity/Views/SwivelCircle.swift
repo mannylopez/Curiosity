@@ -4,7 +4,7 @@ import SwiftUI
 
 // MARK: - Swivel
 
-struct Swivel: View, Demo {
+struct SwivelCircle: View, Demo {
 
   // MARK: Lifecycle
 
@@ -27,7 +27,7 @@ struct Swivel: View, Demo {
   @State var currentQuadrant: Quadrant
 
   let id = UUID()
-  let name = "Initial"
+  let name = "Swivel Circle"
 
   var body: some View {
     ZStack {
@@ -96,7 +96,7 @@ struct Swivel: View, Demo {
 
 
 #Preview {
-  Swivel(currentQuadrant: .NE)
+  SwivelCircle(currentQuadrant: .NE)
 }
 
 // MARK: - Quadrant
