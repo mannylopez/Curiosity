@@ -4,5 +4,8 @@ import Foundation
 import SwiftUI
 
 struct DemosModel {
-  let demos = [Swivel()]
+  static func randomQuadrant() -> Quadrant {
+    Quadrant.allCases.randomElement()!
+  }
+  let demos = [Swivel(currentQuadrant: randomQuadrant())]
 }

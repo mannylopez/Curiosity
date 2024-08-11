@@ -16,6 +16,7 @@
 		584CA9B32C65D8B700C09741 /* CuriosityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584CA9B22C65D8B700C09741 /* CuriosityUITestsLaunchTests.swift */; };
 		58A077372C66EB8600D48D3B /* DemosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077362C66EB8600D48D3B /* DemosModel.swift */; };
 		58A077392C66EC3C00D48D3B /* Swivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077382C66EC3C00D48D3B /* Swivel.swift */; };
+		58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FC2C683E2600A82B17 /* PieSegment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		584CA9B22C65D8B700C09741 /* CuriosityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuriosityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		58A077362C66EB8600D48D3B /* DemosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemosModel.swift; sourceTree = "<group>"; };
 		58A077382C66EC3C00D48D3B /* Swivel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swivel.swift; sourceTree = "<group>"; };
+		58E405FC2C683E2600A82B17 /* PieSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		584CA9942C65D8B600C09741 /* Curiosity */ = {
 			isa = PBXGroup;
 			children = (
+				58E405FB2C683E0C00A82B17 /* Shapes */,
 				584CA9952C65D8B600C09741 /* CuriosityApp.swift */,
 				587709C92C66F5B400973D8A /* Model */,
 				58037AFD2C66F56600CAE731 /* Views */,
@@ -147,6 +150,14 @@
 				58A077362C66EB8600D48D3B /* DemosModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		58E405FB2C683E0C00A82B17 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				58E405FC2C683E2600A82B17 /* PieSegment.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				584CA9982C65D8B600C09741 /* DemoList.swift in Sources */,
+				58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */,
 				58A077392C66EC3C00D48D3B /* Swivel.swift in Sources */,
 				584CA9962C65D8B600C09741 /* CuriosityApp.swift in Sources */,
 				58A077372C66EB8600D48D3B /* DemosModel.swift in Sources */,
