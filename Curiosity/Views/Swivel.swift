@@ -4,7 +4,7 @@ import SwiftUI
 
 // MARK: - Swivel
 
-struct Swivel: View, Identifiable {
+struct Swivel: View, Demo {
 
   // MARK: Lifecycle
 
@@ -43,9 +43,21 @@ struct Swivel: View, Identifiable {
       PieSegment(start: .degrees(270), end: .degrees(360))
         .fill(.red)
         .opacity(shouldShowNE ? 1.0 : 0)
-    }
-    Button("update") {
-      toggleQuadrant()
+      
+      PieSegment(start: .degrees(0), end: .degrees(360))
+        .fill(.clear)
+        .overlay {
+          Circle()
+            .fill(.clear)
+            .stroke(Color(.systemGray5))
+        }
+
+      Button(action: {
+        toggleQuadrant()
+      }, label: {
+        Text("")
+          .frame(maxWidth: .infinity, maxHeight: .infinity)
+      })
     }
   }
 

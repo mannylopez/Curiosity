@@ -17,6 +17,8 @@
 		58A077372C66EB8600D48D3B /* DemosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077362C66EB8600D48D3B /* DemosModel.swift */; };
 		58A077392C66EC3C00D48D3B /* Swivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A077382C66EC3C00D48D3B /* Swivel.swift */; };
 		58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FC2C683E2600A82B17 /* PieSegment.swift */; };
+		58E405FF2C683F7300A82B17 /* SwivelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FE2C683F7300A82B17 /* SwivelScreen.swift */; };
+		58E406022C684D8700A82B17 /* DemoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E406012C684D8700A82B17 /* DemoProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		58A077362C66EB8600D48D3B /* DemosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemosModel.swift; sourceTree = "<group>"; };
 		58A077382C66EC3C00D48D3B /* Swivel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swivel.swift; sourceTree = "<group>"; };
 		58E405FC2C683E2600A82B17 /* PieSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegment.swift; sourceTree = "<group>"; };
+		58E405FE2C683F7300A82B17 /* SwivelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwivelScreen.swift; sourceTree = "<group>"; };
+		58E406012C684D8700A82B17 /* DemoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoProtocol.swift; path = Curiosity/Admin/DemoProtocol.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 			children = (
 				584CA9972C65D8B600C09741 /* DemoList.swift */,
 				58A077382C66EC3C00D48D3B /* Swivel.swift */,
+				58E405FE2C683F7300A82B17 /* SwivelScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,8 +114,9 @@
 		584CA9942C65D8B600C09741 /* Curiosity */ = {
 			isa = PBXGroup;
 			children = (
-				58E405FB2C683E0C00A82B17 /* Shapes */,
 				584CA9952C65D8B600C09741 /* CuriosityApp.swift */,
+				58E406002C684D3F00A82B17 /* Admin */,
+				58E405FB2C683E0C00A82B17 /* Shapes */,
 				587709C92C66F5B400973D8A /* Model */,
 				58037AFD2C66F56600CAE731 /* Views */,
 				584CA9992C65D8B700C09741 /* Assets.xcassets */,
@@ -158,6 +164,14 @@
 				58E405FC2C683E2600A82B17 /* PieSegment.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		58E406002C684D3F00A82B17 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				58E406012C684D8700A82B17 /* DemoProtocol.swift */,
+			);
+			path = Admin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				584CA9982C65D8B600C09741 /* DemoList.swift in Sources */,
+				58E406022C684D8700A82B17 /* DemoProtocol.swift in Sources */,
+				58E405FF2C683F7300A82B17 /* SwivelScreen.swift in Sources */,
 				58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */,
 				58A077392C66EC3C00D48D3B /* Swivel.swift in Sources */,
 				584CA9962C65D8B600C09741 /* CuriosityApp.swift in Sources */,
