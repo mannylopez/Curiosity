@@ -28,7 +28,7 @@ struct SwivelCircle: View, Demo {
   let name = "Swivel Circle"
 
   var body: some View {
-    if let colorScheme = colors[.ocean] {
+    if let colorScheme = colors[.rgb] {
       ZStack {
         PieSegment(start: .zero, end: .degrees(90))
           .fill(colorScheme[0])
