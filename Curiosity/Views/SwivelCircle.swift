@@ -12,19 +12,17 @@ struct SwivelCircle: View, Demo {
     self.currentQuadrant = currentQuadrant
     switch currentQuadrant {
     case .SE:
-      _shouldShowSE = State(initialValue: true)
+      shouldShowSE = true
     case .SW:
-      _shouldShowSW = State(initialValue: true)
+      shouldShowSW = true
     case .NW:
-      _shouldShowNW = State(initialValue: true)
+      shouldShowNW = true
     case .NE:
-      _shouldShowNE = State(initialValue: true)
+      shouldShowNE = true
     }
   }
 
   // MARK: Internal
-
-  @State var currentQuadrant: Quadrant
 
   let id = UUID()
   let name = "Swivel Circle"
@@ -43,7 +41,7 @@ struct SwivelCircle: View, Demo {
       PieSegment(start: .degrees(270), end: .degrees(360))
         .fill(.red)
         .opacity(shouldShowNE ? 1.0 : 0)
-      
+
       PieSegment(start: .degrees(0), end: .degrees(360))
         .fill(.clear)
         .overlay {
@@ -51,56 +49,21 @@ struct SwivelCircle: View, Demo {
             .fill(.clear)
             .stroke(Color(.systemGray5))
         }
-
-      Button(action: {
-        toggleQuadrant()
-      }, label: {
-        Text("")
-          .frame(maxWidth: .infinity, maxHeight: .infinity)
-      })
     }
   }
 
   // MARK: Private
 
-  @State private var shouldShowSE = false
-  @State private var shouldShowSW = false
-  @State private var shouldShowNW = false
-  @State private var shouldShowNE = false
+  private var currentQuadrant: Quadrant
 
-  private func toggleQuadrant() {
-    switch currentQuadrant {
-    case .SE:
-      currentQuadrant = .SW
-      shouldShowSE.toggle()
-      shouldShowSW.toggle()
-
-    case .SW:
-      currentQuadrant = .NW
-      shouldShowSW.toggle()
-      shouldShowNW.toggle()
-
-    case .NW:
-      currentQuadrant = .NE
-      shouldShowNW.toggle()
-      shouldShowNE.toggle()
-
-    case .NE:
-      currentQuadrant = .SE
-      shouldShowNE.toggle()
-      shouldShowSE.toggle()
-    }
-  }
+  private var shouldShowSE = false
+  private var shouldShowSW = false
+  private var shouldShowNW = false
+  private var shouldShowNE = false
 }
 
 
 
 #Preview {
-  SwivelCircle(currentQuadrant: .NE)
-}
-
-// MARK: - Quadrant
-
-enum Quadrant: CaseIterable {
-  case SE, SW, NW, NE
+  SwivelCircle(currentQuadrant: Quadrant.randomQuadrant())
 }

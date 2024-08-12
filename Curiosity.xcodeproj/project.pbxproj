@@ -19,6 +19,7 @@
 		58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FC2C683E2600A82B17 /* PieSegment.swift */; };
 		58E405FF2C683F7300A82B17 /* SwivelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E405FE2C683F7300A82B17 /* SwivelScreen.swift */; };
 		58E406022C684D8700A82B17 /* DemoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E406012C684D8700A82B17 /* DemoProtocol.swift */; };
+		58E5C5DA2C692F85002DF828 /* Quadrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E5C5D92C692F85002DF828 /* Quadrant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		58E405FC2C683E2600A82B17 /* PieSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSegment.swift; sourceTree = "<group>"; };
 		58E405FE2C683F7300A82B17 /* SwivelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwivelScreen.swift; sourceTree = "<group>"; };
 		58E406012C684D8700A82B17 /* DemoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoProtocol.swift; path = Curiosity/Admin/DemoProtocol.swift; sourceTree = SOURCE_ROOT; };
+		58E5C5D92C692F85002DF828 /* Quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadrant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				58E406012C684D8700A82B17 /* DemoProtocol.swift */,
+				58E5C5D92C692F85002DF828 /* Quadrant.swift */,
 			);
 			path = Admin;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			files = (
 				584CA9982C65D8B600C09741 /* DemoList.swift in Sources */,
 				58E406022C684D8700A82B17 /* DemoProtocol.swift in Sources */,
+				58E5C5DA2C692F85002DF828 /* Quadrant.swift in Sources */,
 				58E405FF2C683F7300A82B17 /* SwivelScreen.swift in Sources */,
 				58E405FD2C683E2600A82B17 /* PieSegment.swift in Sources */,
 				58A077392C66EC3C00D48D3B /* SwivelCircle.swift in Sources */,
@@ -480,8 +484,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,8 +513,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
