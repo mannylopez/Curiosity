@@ -99,8 +99,6 @@ struct SwivelScreen: View, Demo {
     for offset in surroundingOffsets {
       let newRow = rowIndex + offset.0
       let newColumn = columnIndex + offset.1
-      print(Direction(rawValue: offset.2).debugDescription ,newRow, newColumn, rowIndex, columnIndex)
-      print(newRow >= 0, newRow < rowIndex, newColumn >= 0, newColumn < columnIndex)
 
       // Check if the new position is within bounds
       if
